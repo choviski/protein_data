@@ -1,0 +1,3022 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= protein
+         (34 letters)
+
+Database: nr 
+           10,219,744 sequences; 3,539,507,111 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|157834385                                                           68   3e-10
+gi|159139013                                                           50   6e-05
+gi|209379                                                              49   1e-04
+gi|38049155                                                            48   4e-04
+gi|359270171                                                           48   4e-04
+gi|359270162                                                           48   4e-04
+gi|346427126                                                           48   4e-04
+gi|221267805                                                           47   5e-04
+gi|38049157                                                            47   5e-04
+gi|359270174                                                           47   5e-04
+gi|359270168                                                           47   5e-04
+gi|1321813                                                             47   5e-04
+gi|208991                                                              47   5e-04
+gi|1332396                                                             47   8e-04
+gi|162404899                                                           47   8e-04
+gi|162404897                                                           46   0.001
+gi|323443158                                                           46   0.001
+gi|302749993                                                           46   0.001
+gi|253733788                                                           46   0.001
+gi|258424225                                                           46   0.001
+gi|282902702                                                           46   0.001
+gi|359270155                                                           46   0.001
+gi|2654280                                                             46   0.001
+gi|83682327                                                            46   0.001
+gi|194580267                                                           44   0.007
+gi|343781192                                                           42   0.025
+gi|334272847                                                           41   0.038
+gi|154736702                                                           41   0.040
+gi|83753867                                                            41   0.048
+gi|1480567                                                             40   0.083
+gi|219943172                                                           37   0.55 
+gi|302202596                                                           37   0.61 
+gi|197253294                                                           37   0.73 
+gi|323463238                                                           37   0.85 
+gi|159171571                                                           35   2.7  
+gi|219943178                                                           34   5.3  
+
+>gi|157834385 
+          Length = 38
+
+ Score = 68.2 bits (165), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 32/33 (96%), Positives = 32/33 (96%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FNMQ QRRFYEALHDPNLNEEQRNAKIKSIRDD
+Sbjct: 6  FNMQQQRRFYEALHDPNLNEEQRNAKIKSIRDD 38
+
+
+>gi|159139013 
+          Length = 411
+
+ Score = 50.4 bits (119), Expect = 6e-05,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 358 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 390
+
+
+>gi|209379 
+          Length = 308
+
+ Score = 49.3 bits (116), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 5  FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 37
+
+
+>gi|38049155 
+          Length = 200
+
+ Score = 47.8 bits (112), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 6  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 38
+
+
+
+ Score = 47.8 bits (112), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 66 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 98
+
+
+>gi|359270171 
+          Length = 289
+
+ Score = 47.8 bits (112), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 234 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 266
+
+
+>gi|359270162 
+          Length = 339
+
+ Score = 47.8 bits (112), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 284 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 316
+
+
+>gi|346427126 
+          Length = 474
+
+ Score = 47.8 bits (112), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 353 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 385
+
+
+
+ Score = 47.8 bits (112), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 411 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 443
+
+
+>gi|221267805 
+          Length = 208
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 28 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 60
+
+
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 86  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 118
+
+
+>gi|38049157 
+          Length = 201
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 88  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 120
+
+
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 148 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 180
+
+
+>gi|359270174 
+          Length = 272
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 217 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 249
+
+
+>gi|359270168 
+          Length = 337
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 282 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 314
+
+
+>gi|1321813 
+          Length = 318
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 90  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 122
+
+
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 162 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 194
+
+
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 220 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 252
+
+
+
+ Score = 45.4 bits (106), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 21/33 (63%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQ+NA I+S++DD
+Sbjct: 32 FNKEQQNAFYEILHLPNLNEEQQNAFIQSLKDD 64
+
+
+>gi|208991 
+          Length = 241
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 47 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 79
+
+
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 105 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 137
+
+
+>gi|1332396 
+          Length = 215
+
+ Score = 46.6 bits (109), Expect = 8e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 11 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 43
+
+
+
+ Score = 46.6 bits (109), Expect = 8e-04,   Method: Compositional matrix adjust.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 69  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 101
+
+
+>gi|162404899 
+          Length = 214
+
+ Score = 46.6 bits (109), Expect = 8e-04,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 160 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 192
+
+
+>gi|162404897 
+          Length = 190
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 136 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 168
+
+
+>gi|323443158 
+          Length = 464
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 228 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 260
+
+
+
+ Score = 44.3 bits (103), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 286 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 318
+
+
+
+ Score = 43.5 bits (101), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 170 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 202
+
+
+
+ Score = 42.7 bits (99), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 112 FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 144
+
+
+
+ Score = 35.0 bits (79), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 15/28 (53%), Positives = 21/28 (75%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 56 QNAFYQVLNMPNLNADQRNGFIQSLKDD 83
+
+
+>gi|302749993 
+          Length = 438
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 170 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 202
+
+
+
+ Score = 43.9 bits (102), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 228 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 260
+
+
+
+ Score = 42.4 bits (98), Expect = 0.017,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 112 FNKDRQSAFYEILNMPNLNEEQRNGFIQSLKDD 144
+
+
+
+ Score = 34.7 bits (78), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 15/28 (53%), Positives = 21/28 (75%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 56 QNAFYQVLNMPNLNADQRNGFIQSLKDD 83
+
+
+>gi|253733788 
+          Length = 488
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 228 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 260
+
+
+
+ Score = 43.9 bits (102), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 286 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 318
+
+
+
+ Score = 43.5 bits (101), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 170 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 202
+
+
+
+ Score = 39.7 bits (91), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 112 FNKDQQSAFYEILNMPNLNEVQRNGFIQSLKDD 144
+
+
+
+ Score = 35.0 bits (79), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 15/28 (53%), Positives = 21/28 (75%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 56 QNAFYQVLNMPNLNADQRNGFIQSLKDD 83
+
+
+>gi|258424225 
+          Length = 520
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 236 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 268
+
+
+
+ Score = 43.9 bits (102), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 294 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 326
+
+
+
+ Score = 42.4 bits (98), Expect = 0.015,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 178 FNKDQQNAFYEILNMPNLNEEQRNGFIQSLKDD 210
+
+
+
+ Score = 40.0 bits (92), Expect = 0.071,   Method: Compositional matrix adjust.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 120 FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 152
+
+
+
+ Score = 34.7 bits (78), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 15/28 (53%), Positives = 21/28 (75%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 64 QNAFYQVLNMPNLNADQRNGFIQSLKDD 91
+
+
+>gi|282902702 
+          Length = 534
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 227 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 259
+
+
+
+ Score = 43.9 bits (102), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 285 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 317
+
+
+
+ Score = 43.5 bits (101), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 169 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 201
+
+
+
+ Score = 42.4 bits (98), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 111 FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 143
+
+
+
+ Score = 34.7 bits (78), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 15/28 (53%), Positives = 21/28 (75%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 55 QNAFYQVLNMPNLNADQRNGFIQSLKDD 82
+
+
+>gi|359270155 
+          Length = 298
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 243 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 275
+
+
+>gi|2654280 
+          Length = 88
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 26 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 58
+
+
+>gi|83682327 
+          Length = 507
+
+ Score = 45.8 bits (107), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 21/34 (61%), Positives = 25/34 (73%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDDC 34
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD 
+Sbjct: 189 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDP 222
+
+
+
+ Score = 43.5 bits (101), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 20/34 (58%), Positives = 24/34 (70%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDDC 34
+           FN + Q  FYE LH PNL EEQRN  I+S++DD 
+Sbjct: 247 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDP 280
+
+
+
+ Score = 43.1 bits (100), Expect = 0.010,   Method: Compositional matrix adjust.
+ Identities = 20/34 (58%), Positives = 25/34 (73%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDDC 34
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD 
+Sbjct: 131 FNKKQQNAFYEILNMPNLNEEQRNGFIQSLKDDP 164
+
+
+
+ Score = 40.0 bits (92), Expect = 0.090,   Method: Compositional matrix adjust.
+ Identities = 19/34 (55%), Positives = 23/34 (67%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDDC 34
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD 
+Sbjct: 73  FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDP 106
+
+
+
+ Score = 34.3 bits (77), Expect = 4.8,   Method: Compositional matrix adjust.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDDC 34
+          Q  FY+ L+ PNLN +QRN  I+S++DD 
+Sbjct: 17 QNAFYQVLNMPNLNADQRNGFIQSLKDDP 45
+
+
+>gi|194580267 
+          Length = 183
+
+ Score = 43.5 bits (101), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 122 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 154
+
+
+
+ Score = 40.4 bits (93), Expect = 0.064,   Method: Compositional matrix adjust.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 64 FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 96
+
+
+>gi|343781192 
+          Length = 34
+
+ Score = 41.6 bits (96), Expect = 0.025,   Method: Compositional matrix adjust.
+ Identities = 21/34 (61%), Positives = 23/34 (67%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDDC 34
+          FN +C  R+ EA  DPNLN  QR AKI SI DDC
+Sbjct: 1  FNKECLLRYKEAALDPNLNLYQRIAKIVSIDDDC 34
+
+
+>gi|334272847 
+          Length = 267
+
+ Score = 41.2 bits (95), Expect = 0.038,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 45 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 77
+
+
+
+ Score = 39.3 bits (90), Expect = 0.15,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 103 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 135
+
+
+>gi|154736702 
+          Length = 439
+
+ Score = 41.2 bits (95), Expect = 0.040,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 132 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 164
+
+
+
+ Score = 39.3 bits (90), Expect = 0.15,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 190 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 222
+
+
+
+ Score = 38.1 bits (87), Expect = 0.33,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 74  FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 106
+
+
+>gi|83753867 
+          Length = 59
+
+ Score = 40.8 bits (94), Expect = 0.048,   Method: Compositional matrix adjust.
+ Identities = 18/28 (64%), Positives = 23/28 (82%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FYE L+ PNLNE+QRNA I+S++DD
+Sbjct: 10 QNAFYEVLNMPNLNEDQRNAFIQSLKDD 37
+
+
+>gi|1480567 
+          Length = 472
+
+ Score = 40.0 bits (92), Expect = 0.083,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 216 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 248
+
+
+
+ Score = 39.7 bits (91), Expect = 0.098,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 158 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 190
+
+
+
+ Score = 38.9 bits (89), Expect = 0.18,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 100 FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 132
+
+
+>gi|219943172 
+          Length = 310
+
+ Score = 37.4 bits (85), Expect = 0.55,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 100 FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 132
+
+
+>gi|302202596 
+          Length = 418
+
+ Score = 37.0 bits (84), Expect = 0.61,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE LH P L EEQRN  I+S++DD
+Sbjct: 215 FNEAQQNAFYEILHLPYLTEEQRNGFIQSLKDD 247
+
+
+
+ Score = 34.3 bits (77), Expect = 4.2,   Method: Composition-based stats.
+ Identities = 16/33 (48%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           F+   Q  FYE ++ PNL +EQRN  I+S++DD
+Sbjct: 98  FDAAQQNAFYEIVNLPNLTDEQRNGYIQSLKDD 130
+
+
+
+ Score = 33.5 bits (75), Expect = 6.7,   Method: Composition-based stats.
+ Identities = 17/33 (51%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           F+   Q  FYE L+ P L+EEQRN  I+S++DD
+Sbjct: 157 FDAAQQNAFYEILNLPYLSEEQRNGFIQSLKDD 189
+
+
+
+ Score = 33.5 bits (75), Expect = 8.2,   Method: Composition-based stats.
+ Identities = 15/28 (53%), Positives = 21/28 (75%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FYE ++ PNL +EQRN  I+S++DD
+Sbjct: 44 QNAFYEIVNLPNLTDEQRNGYIQSLKDD 71
+
+
+>gi|197253294 
+          Length = 462
+
+ Score = 37.0 bits (84), Expect = 0.73,   Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 21/28 (75%)
+
+Query: 6   QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 103 QNAFYEILHLPNLTEEQRNGYIQSLKDD 130
+
+
+
+ Score = 36.6 bits (83), Expect = 0.99,   Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 21/28 (75%)
+
+Query: 6   QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 217 QNAFYEILHLPNLTEEQRNGFIQSLKDD 244
+
+
+
+ Score = 33.5 bits (75), Expect = 7.3,   Method: Composition-based stats.
+ Identities = 17/33 (51%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           F+   Q  FYE ++ PNL EEQRN  I+S++DD
+Sbjct: 157 FDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDD 189
+
+
+>gi|323463238 
+          Length = 347
+
+ Score = 36.6 bits (83), Expect = 0.85,   Method: Composition-based stats.
+ Identities = 17/28 (60%), Positives = 21/28 (75%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FYE LH PNL EEQ+N  I+S++DD
+Sbjct: 46 QNAFYEILHLPNLTEEQQNGFIQSLKDD 73
+
+
+
+ Score = 33.5 bits (75), Expect = 6.8,   Method: Composition-based stats.
+ Identities = 16/28 (57%), Positives = 20/28 (71%)
+
+Query: 6   QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FYE LH  NL EEQ+N  I+S++DD
+Sbjct: 101 QNAFYEILHLSNLTEEQQNGFIQSLKDD 128
+
+
+
+ Score = 33.5 bits (75), Expect = 6.8,   Method: Composition-based stats.
+ Identities = 16/28 (57%), Positives = 20/28 (71%)
+
+Query: 6   QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FYE LH  NL EEQ+N  I+S++DD
+Sbjct: 156 QNAFYEILHLSNLTEEQQNGFIQSLKDD 183
+
+
+>gi|159171571 
+          Length = 566
+
+ Score = 35.0 bits (79), Expect = 2.7,   Method: Composition-based stats.
+ Identities = 15/33 (45%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + +  ++E +  PNLN EQR A I+S+ DD
+Sbjct: 513 FNKEPKTAYWEIVKLPNLNPEQRRAFIRSLYDD 545
+
+
+>gi|219943178 
+          Length = 321
+
+ Score = 33.9 bits (76), Expect = 5.3,   Method: Composition-based stats.
+ Identities = 15/28 (53%), Positives = 21/28 (75%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 44 QNAFYQVLNMPNLNADQRNGFIQSLKDD 71
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gi|159139013                                                           69   1e-10
+gi|209379                                                              69   2e-10
+gi|162404899                                                           66   1e-09
+gi|359270171                                                           63   8e-09
+gi|359270162                                                           63   8e-09
+gi|359270174                                                           63   1e-08
+gi|359270168                                                           61   4e-08
+gi|208991                                                              60   6e-08
+gi|346427126                                                           59   2e-07
+gi|221267805                                                           58   4e-07
+gi|1332396                                                             57   6e-07
+gi|38049157                                                            57   6e-07
+gi|38049155                                                            57   7e-07
+gi|1321813                                                             55   3e-06
+gi|157834385                                                           47   5e-04
+
+Sequences not found previously or not previously below threshold:
+
+gi|162404897                                                           65   2e-09
+gi|359270155                                                           62   2e-08
+gi|2654280                                                             57   6e-07
+gi|302749993                                                           56   1e-06
+gi|258424225                                                           55   2e-06
+gi|323443158                                                           55   2e-06
+gi|154736702                                                           55   2e-06
+gi|334272847                                                           55   3e-06
+gi|1480567                                                             55   3e-06
+gi|282902702                                                           55   3e-06
+gi|253733788                                                           55   3e-06
+gi|83682327                                                            53   8e-06
+gi|302202596                                                           51   5e-05
+gi|219943172                                                           50   7e-05
+gi|323463238                                                           50   8e-05
+gi|194580267                                                           49   1e-04
+gi|197253294                                                           49   2e-04
+gi|159171571                                                           47   4e-04
+gi|219943178                                                           46   0.002
+gi|83753867                                                            44   0.005
+gi|322812254                                                           42   0.025
+gi|343781192                                                           38   0.29 
+gi|323465521                                                           37   0.44 
+gi|319891322                                                           37   0.48 
+gi|285818079                                                           36   1.0  
+gi|302148593                                                           36   1.1  
+gi|282917767                                                           36   1.2  
+gi|83753868                                                            35   1.7  
+gi|371974086                                                           35   2.1  
+gi|375020462                                                           35   2.3  
+gi|109157194                                                           34   5.9  
+gi|167744864                                                           34   7.1  
+
+>gi|159139013 
+          Length = 411
+
+ Score = 69.3 bits (168), Expect = 1e-10,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 358 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 390
+
+
+>gi|209379 
+          Length = 308
+
+ Score = 68.6 bits (166), Expect = 2e-10,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 5  FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 37
+
+
+>gi|162404899 
+          Length = 214
+
+ Score = 65.9 bits (159), Expect = 1e-09,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 160 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 192
+
+
+>gi|162404897 
+          Length = 190
+
+ Score = 65.5 bits (158), Expect = 2e-09,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 136 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 168
+
+
+>gi|359270171 
+          Length = 289
+
+ Score = 63.2 bits (152), Expect = 8e-09,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 234 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 266
+
+
+>gi|359270162 
+          Length = 339
+
+ Score = 63.2 bits (152), Expect = 8e-09,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 284 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 316
+
+
+>gi|359270174 
+          Length = 272
+
+ Score = 62.8 bits (151), Expect = 1e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 217 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 249
+
+
+>gi|359270155 
+          Length = 298
+
+ Score = 62.4 bits (150), Expect = 2e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 243 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 275
+
+
+>gi|359270168 
+          Length = 337
+
+ Score = 61.3 bits (147), Expect = 4e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 282 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 314
+
+
+>gi|208991 
+          Length = 241
+
+ Score = 60.1 bits (144), Expect = 6e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 47 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 79
+
+
+
+ Score = 60.1 bits (144), Expect = 6e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 105 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 137
+
+
+>gi|346427126 
+          Length = 474
+
+ Score = 58.6 bits (140), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 353 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 385
+
+
+
+ Score = 58.6 bits (140), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 411 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 443
+
+
+>gi|221267805 
+          Length = 208
+
+ Score = 57.8 bits (138), Expect = 4e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 28 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 60
+
+
+
+ Score = 57.8 bits (138), Expect = 4e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 86  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 118
+
+
+>gi|1332396 
+          Length = 215
+
+ Score = 57.0 bits (136), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 11 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 43
+
+
+
+ Score = 57.0 bits (136), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 69  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 101
+
+
+>gi|2654280 
+          Length = 88
+
+ Score = 57.0 bits (136), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 26 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 58
+
+
+>gi|38049157 
+          Length = 201
+
+ Score = 57.0 bits (136), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 88  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 120
+
+
+
+ Score = 57.0 bits (136), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 148 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 180
+
+
+>gi|38049155 
+          Length = 200
+
+ Score = 57.0 bits (136), Expect = 7e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 6  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 38
+
+
+
+ Score = 57.0 bits (136), Expect = 7e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 66 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 98
+
+
+>gi|302749993 
+          Length = 438
+
+ Score = 56.3 bits (134), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 170 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 202
+
+
+
+ Score = 53.9 bits (128), Expect = 5e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 228 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 260
+
+
+
+ Score = 49.3 bits (116), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 112 FNKDRQSAFYEILNMPNLNEEQRNGFIQSLKDD 144
+
+
+
+ Score = 42.4 bits (98), Expect = 0.015,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 55 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 83
+
+
+>gi|258424225 
+          Length = 520
+
+ Score = 55.1 bits (131), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 236 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 268
+
+
+
+ Score = 53.2 bits (126), Expect = 9e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 294 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 326
+
+
+
+ Score = 51.2 bits (121), Expect = 4e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 178 FNKDQQNAFYEILNMPNLNEEQRNGFIQSLKDD 210
+
+
+
+ Score = 47.8 bits (112), Expect = 3e-04,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 120 FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 152
+
+
+
+ Score = 41.6 bits (96), Expect = 0.026,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 63 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 91
+
+
+>gi|323443158 
+          Length = 464
+
+ Score = 55.1 bits (131), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 228 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 260
+
+
+
+ Score = 53.2 bits (126), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 286 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 318
+
+
+
+ Score = 52.0 bits (123), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 170 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 202
+
+
+
+ Score = 49.7 bits (117), Expect = 9e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 112 FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 144
+
+
+
+ Score = 41.6 bits (96), Expect = 0.027,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 55 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 83
+
+
+>gi|154736702 
+          Length = 439
+
+ Score = 55.1 bits (131), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 132 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 164
+
+
+
+ Score = 53.2 bits (126), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 190 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 222
+
+
+
+ Score = 49.7 bits (117), Expect = 9e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 74  FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 106
+
+
+
+ Score = 41.6 bits (96), Expect = 0.027,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 17 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 45
+
+
+>gi|334272847 
+          Length = 267
+
+ Score = 54.7 bits (130), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 45 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 77
+
+
+
+ Score = 52.8 bits (125), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 103 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 135
+
+
+>gi|1480567 
+          Length = 472
+
+ Score = 54.7 bits (130), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 216 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 248
+
+
+
+ Score = 53.6 bits (127), Expect = 6e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 158 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 190
+
+
+
+ Score = 51.2 bits (121), Expect = 3e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 100 FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 132
+
+
+
+ Score = 42.8 bits (99), Expect = 0.012,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 43 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 71
+
+
+>gi|282902702 
+          Length = 534
+
+ Score = 54.7 bits (130), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 227 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 259
+
+
+
+ Score = 52.8 bits (125), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 285 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 317
+
+
+
+ Score = 51.6 bits (122), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 169 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 201
+
+
+
+ Score = 49.3 bits (116), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 111 FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 143
+
+
+
+ Score = 41.2 bits (95), Expect = 0.033,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 54 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 82
+
+
+>gi|253733788 
+          Length = 488
+
+ Score = 54.7 bits (130), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 228 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 260
+
+
+
+ Score = 52.8 bits (125), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 286 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 318
+
+
+
+ Score = 51.6 bits (122), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 170 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 202
+
+
+
+ Score = 47.0 bits (110), Expect = 7e-04,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 112 FNKDQQSAFYEILNMPNLNEVQRNGFIQSLKDD 144
+
+
+
+ Score = 41.2 bits (95), Expect = 0.033,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 55 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 83
+
+
+>gi|1321813 
+          Length = 318
+
+ Score = 54.7 bits (130), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 90  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 122
+
+
+
+ Score = 54.7 bits (130), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 162 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 194
+
+
+
+ Score = 54.7 bits (130), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 220 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 252
+
+
+
+ Score = 53.2 bits (126), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQ+NA I+S++DD
+Sbjct: 32 FNKEQQNAFYEILHLPNLNEEQQNAFIQSLKDD 64
+
+
+>gi|83682327 
+          Length = 507
+
+ Score = 53.2 bits (126), Expect = 8e-06,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 189 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 221
+
+
+
+ Score = 51.2 bits (121), Expect = 3e-05,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 247 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 279
+
+
+
+ Score = 49.7 bits (117), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 131 FNKKQQNAFYEILNMPNLNEEQRNGFIQSLKDD 163
+
+
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 73  FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 105
+
+
+
+ Score = 40.5 bits (93), Expect = 0.066,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 16 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 44
+
+
+>gi|302202596 
+          Length = 418
+
+ Score = 50.9 bits (120), Expect = 5e-05,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE LH P L EEQRN  I+S++DD
+Sbjct: 215 FNEAQQNAFYEILHLPYLTEEQRNGFIQSLKDD 247
+
+
+
+ Score = 46.6 bits (109), Expect = 8e-04,   Method: Composition-based stats.
+ Identities = 17/33 (51%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           F+   Q  FYE L+ P L+EEQRN  I+S++DD
+Sbjct: 157 FDAAQQNAFYEILNLPYLSEEQRNGFIQSLKDD 189
+
+
+
+ Score = 45.9 bits (107), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 16/33 (48%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           F+   Q  FYE ++ PNL +EQRN  I+S++DD
+Sbjct: 98  FDAAQQNAFYEIVNLPNLTDEQRNGYIQSLKDD 130
+
+
+
+ Score = 43.9 bits (102), Expect = 0.005,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FYE ++ PNL +EQRN  I+S++DD
+Sbjct: 43 QQNAFYEIVNLPNLTDEQRNGYIQSLKDD 71
+
+
+>gi|219943172 
+          Length = 310
+
+ Score = 50.5 bits (119), Expect = 7e-05,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 100 FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 132
+
+
+
+ Score = 43.5 bits (101), Expect = 0.006,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 43 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 71
+
+
+>gi|323463238 
+          Length = 347
+
+ Score = 50.1 bits (118), Expect = 8e-05,   Method: Composition-based stats.
+ Identities = 18/32 (56%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          N   Q  FYE LH PNL EEQ+N  I+S++DD
+Sbjct: 42 NDAQQNAFYEILHLPNLTEEQQNGFIQSLKDD 73
+
+
+
+ Score = 46.6 bits (109), Expect = 8e-04,   Method: Composition-based stats.
+ Identities = 16/33 (48%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           ++   Q  FYE LH  NL EEQ+N  I+S++DD
+Sbjct: 96  YSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDD 128
+
+
+
+ Score = 46.6 bits (109), Expect = 8e-04,   Method: Composition-based stats.
+ Identities = 16/33 (48%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           ++   Q  FYE LH  NL EEQ+N  I+S++DD
+Sbjct: 151 YSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDD 183
+
+
+>gi|194580267 
+          Length = 183
+
+ Score = 49.3 bits (116), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 122 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 154
+
+
+
+ Score = 45.5 bits (106), Expect = 0.002,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 64 FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 96
+
+
+>gi|197253294 
+          Length = 462
+
+ Score = 48.9 bits (115), Expect = 2e-04,   Method: Composition-based stats.
+ Identities = 18/33 (54%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           ++ + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 98  YSDEQQNAFYEILHLPNLTEEQRNGYIQSLKDD 130
+
+
+
+ Score = 48.5 bits (114), Expect = 2e-04,   Method: Composition-based stats.
+ Identities = 18/33 (54%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           ++   Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 212 YSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDD 244
+
+
+
+ Score = 46.6 bits (109), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 17/33 (51%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           F+   Q  FYE ++ PNL EEQRN  I+S++DD
+Sbjct: 157 FDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDD 189
+
+
+
+ Score = 40.8 bits (94), Expect = 0.042,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 20/29 (68%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  F E +  PNL+EEQRN  I+S++DD
+Sbjct: 43 QQNAFSEVVKLPNLSEEQRNGFIQSLKDD 71
+
+
+>gi|159171571 
+          Length = 566
+
+ Score = 47.4 bits (111), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 15/33 (45%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + +  ++E +  PNLN EQR A I+S+ DD
+Sbjct: 513 FNKEPKTAYWEIVKLPNLNPEQRRAFIRSLYDD 545
+
+
+>gi|157834385 
+          Length = 38
+
+ Score = 47.4 bits (111), Expect = 5e-04,   Method: Composition-based stats.
+ Identities = 32/33 (96%), Positives = 32/33 (96%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FNMQ QRRFYEALHDPNLNEEQRNAKIKSIRDD
+Sbjct: 6  FNMQQQRRFYEALHDPNLNEEQRNAKIKSIRDD 38
+
+
+>gi|219943178 
+          Length = 321
+
+ Score = 45.9 bits (107), Expect = 0.002,   Method: Composition-based stats.
+ Identities = 15/29 (51%), Positives = 21/29 (72%)
+
+Query: 5  CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 43 QQNAFYQVLNMPNLNADQRNGFIQSLKDD 71
+
+
+>gi|83753867 
+          Length = 59
+
+ Score = 43.9 bits (102), Expect = 0.005,   Method: Composition-based stats.
+ Identities = 18/30 (60%), Positives = 24/30 (80%)
+
+Query: 4  QCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          + Q  FYE L+ PNLNE+QRNA I+S++DD
+Sbjct: 8  KQQNAFYEVLNMPNLNEDQRNAFIQSLKDD 37
+
+
+>gi|322812254 
+          Length = 365
+
+ Score = 41.6 bits (96), Expect = 0.025,   Method: Composition-based stats.
+ Identities = 18/33 (54%), Positives = 22/33 (66%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + +R   E  H PNLN EQR A I+S+RDD
+Sbjct: 15 FNKERRRARREIRHLPNLNREQRRAFIRSLRDD 47
+
+
+>gi|343781192 
+          Length = 34
+
+ Score = 38.1 bits (87), Expect = 0.29,   Method: Composition-based stats.
+ Identities = 21/34 (61%), Positives = 23/34 (67%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDDC 34
+          FN +C  R+ EA  DPNLN  QR AKI SI DDC
+Sbjct: 1  FNKECLLRYKEAALDPNLNLYQRIAKIVSIDDDC 34
+
+
+>gi|323465521 
+          Length = 496
+
+ Score = 37.4 bits (85), Expect = 0.44,   Method: Composition-based stats.
+ Identities = 14/29 (48%), Positives = 20/29 (68%)
+
+Query: 5   CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+            Q  FY  LH+ +L+EEQR+A I  I++D
+Sbjct: 104 QQNAFYSVLHNDDLSEEQRDAYIGRIKED 132
+
+
+>gi|319891322 
+          Length = 508
+
+ Score = 37.4 bits (85), Expect = 0.48,   Method: Composition-based stats.
+ Identities = 14/29 (48%), Positives = 20/29 (68%)
+
+Query: 5   CQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+            Q  FY  LH+ +L+EEQR+A I  I++D
+Sbjct: 104 QQNAFYSVLHNDDLSEEQRDAYIGRIKED 132
+
+
+>gi|285818079 
+          Length = 451
+
+ Score = 36.2 bits (82), Expect = 1.0,   Method: Composition-based stats.
+ Identities = 13/29 (44%), Positives = 19/29 (65%)
+
+Query: 4  QCQRRFYEALHDPNLNEEQRNAKIKSIRD 32
+            Q+ FY+ LH   + EEQRN  IK++R+
+Sbjct: 50 DQQKAFYQVLHLKGITEEQRNQYIKTLRE 78
+
+
+>gi|302148593 
+          Length = 70
+
+ Score = 36.2 bits (82), Expect = 1.1,   Method: Composition-based stats.
+ Identities = 13/33 (39%), Positives = 21/33 (63%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + +  ++E    PNLN +Q+ A I+S+ DD
+Sbjct: 17 FNKEMRNAYWEIALLPNLNNQQKRAFIRSLYDD 49
+
+
+>gi|282917767 
+          Length = 457
+
+ Score = 36.2 bits (82), Expect = 1.2,   Method: Composition-based stats.
+ Identities = 13/29 (44%), Positives = 19/29 (65%)
+
+Query: 4  QCQRRFYEALHDPNLNEEQRNAKIKSIRD 32
+            Q+ FY+ LH   + EEQRN  IK++R+
+Sbjct: 50 DQQKAFYQVLHLKGITEEQRNQYIKTLRE 78
+
+
+>gi|83753868 
+          Length = 56
+
+ Score = 35.5 bits (80), Expect = 1.7,   Method: Composition-based stats.
+ Identities = 13/28 (46%), Positives = 16/28 (57%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FYE L      E  RNA I+S++DD
+Sbjct: 10 QNAFYETLTKAVDAETARNAFIQSLKDD 37
+
+
+>gi|371974086 
+          Length = 406
+
+ Score = 35.5 bits (80), Expect = 2.1,   Method: Composition-based stats.
+ Identities = 13/29 (44%), Positives = 19/29 (65%)
+
+Query: 4  QCQRRFYEALHDPNLNEEQRNAKIKSIRD 32
+            Q+ FY+ LH   + EEQRN  IK++R+
+Sbjct: 50 DQQKAFYQVLHLKGITEEQRNQYIKTLRE 78
+
+
+>gi|375020462 
+          Length = 139
+
+ Score = 35.1 bits (79), Expect = 2.3,   Method: Composition-based stats.
+ Identities = 13/29 (44%), Positives = 19/29 (65%)
+
+Query: 4  QCQRRFYEALHDPNLNEEQRNAKIKSIRD 32
+            Q+ FY+ LH   + EEQRN  IK++R+
+Sbjct: 50 DQQKAFYQVLHLKGITEEQRNQYIKTLRE 78
+
+
+>gi|109157194 
+          Length = 58
+
+ Score = 33.9 bits (76), Expect = 5.9,   Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 18/33 (54%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN +     +E  + PNLN  Q  A I S+RDD
+Sbjct: 5  FNKELGWATWEIFNLPNLNGVQVKAFIDSLRDD 37
+
+
+>gi|167744864 
+          Length = 71
+
+ Score = 33.5 bits (75), Expect = 7.1,   Method: Composition-based stats.
+ Identities = 13/33 (39%), Positives = 18/33 (54%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN +      E ++ PNLN +Q  A I S+ DD
+Sbjct: 16 FNKEMASAGGEIVYLPNLNPDQLCAFIHSLHDD 48
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gi|209379                                                              72   2e-11
+gi|159139013                                                           69   1e-10
+gi|162404899                                                           69   2e-10
+gi|162404897                                                           68   3e-10
+gi|359270174                                                           65   2e-09
+gi|359270162                                                           65   2e-09
+gi|359270171                                                           65   3e-09
+gi|359270168                                                           64   5e-09
+gi|359270155                                                           64   6e-09
+gi|208991                                                              63   1e-08
+gi|159171571                                                           62   1e-08
+gi|2654280                                                             61   4e-08
+gi|346427126                                                           60   6e-08
+gi|302749993                                                           60   7e-08
+gi|221267805                                                           60   8e-08
+gi|1332396                                                             60   1e-07
+gi|1480567                                                             59   1e-07
+gi|38049155                                                            59   1e-07
+gi|334272847                                                           59   1e-07
+gi|258424225                                                           59   2e-07
+gi|323443158                                                           59   2e-07
+gi|38049157                                                            59   2e-07
+gi|154736702                                                           59   2e-07
+gi|253733788                                                           59   2e-07
+gi|282902702                                                           59   2e-07
+gi|323463238                                                           58   4e-07
+gi|302202596                                                           57   5e-07
+gi|1321813                                                             57   5e-07
+gi|83682327                                                            57   6e-07
+gi|219943172                                                           57   7e-07
+gi|197253294                                                           56   1e-06
+gi|194580267                                                           55   3e-06
+
+Sequences not found previously or not previously below threshold:
+
+gi|219943178                                                           52   2e-05
+gi|83753867                                                            47   0.001
+gi|157834385                                                           45   0.004
+gi|302148593                                                           43   0.008
+gi|322812254                                                           43   0.010
+gi|167744864                                                           38   0.30 
+gi|285818079                                                           38   0.38 
+gi|109157194                                                           38   0.43 
+gi|282917767                                                           38   0.44 
+gi|375020462                                                           37   0.57 
+gi|323465521                                                           37   0.66 
+gi|319891322                                                           37   0.68 
+gi|371974086                                                           37   0.74 
+gi|83753868                                                            36   1.1  
+gi|375023523                                                           36   1.3  
+gi|332138260                                                           35   2.8  
+gi|29726423                                                            35   3.2  
+gi|109157195                                                           35   3.3  
+gi|343781192                                                           34   5.3  
+
+>gi|209379 
+          Length = 308
+
+ Score = 72.4 bits (176), Expect = 2e-11,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 5  FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 37
+
+
+>gi|159139013 
+          Length = 411
+
+ Score = 69.3 bits (168), Expect = 1e-10,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 358 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 390
+
+
+>gi|162404899 
+          Length = 214
+
+ Score = 68.9 bits (167), Expect = 2e-10,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 160 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 192
+
+
+>gi|162404897 
+          Length = 190
+
+ Score = 68.1 bits (165), Expect = 3e-10,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 136 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 168
+
+
+>gi|359270174 
+          Length = 272
+
+ Score = 65.4 bits (158), Expect = 2e-09,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 217 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 249
+
+
+>gi|359270162 
+          Length = 339
+
+ Score = 65.1 bits (157), Expect = 2e-09,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 284 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 316
+
+
+>gi|359270171 
+          Length = 289
+
+ Score = 64.7 bits (156), Expect = 3e-09,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 234 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 266
+
+
+>gi|359270168 
+          Length = 337
+
+ Score = 63.9 bits (154), Expect = 5e-09,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 282 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 314
+
+
+>gi|359270155 
+          Length = 298
+
+ Score = 63.9 bits (154), Expect = 6e-09,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 243 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 275
+
+
+>gi|208991 
+          Length = 241
+
+ Score = 62.7 bits (151), Expect = 1e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 47 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 79
+
+
+
+ Score = 62.7 bits (151), Expect = 1e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 105 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 137
+
+
+>gi|159171571 
+          Length = 566
+
+ Score = 62.4 bits (150), Expect = 1e-08,   Method: Composition-based stats.
+ Identities = 15/33 (45%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + +  ++E +  PNLN EQR A I+S+ DD
+Sbjct: 513 FNKEPKTAYWEIVKLPNLNPEQRRAFIRSLYDD 545
+
+
+>gi|2654280 
+          Length = 88
+
+ Score = 61.2 bits (147), Expect = 4e-08,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 26 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 58
+
+
+>gi|346427126 
+          Length = 474
+
+ Score = 60.4 bits (145), Expect = 6e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 353 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 385
+
+
+
+ Score = 60.4 bits (145), Expect = 6e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 411 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 443
+
+
+>gi|302749993 
+          Length = 438
+
+ Score = 60.4 bits (145), Expect = 7e-08,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 170 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 202
+
+
+
+ Score = 59.3 bits (142), Expect = 1e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 228 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 260
+
+
+
+ Score = 55.8 bits (133), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 112 FNKDRQSAFYEILNMPNLNEEQRNGFIQSLKDD 144
+
+
+
+ Score = 48.9 bits (115), Expect = 2e-04,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 52 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 83
+
+
+>gi|221267805 
+          Length = 208
+
+ Score = 60.0 bits (144), Expect = 8e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 28 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 60
+
+
+
+ Score = 60.0 bits (144), Expect = 8e-08,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 86  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 118
+
+
+>gi|1332396 
+          Length = 215
+
+ Score = 59.7 bits (143), Expect = 1e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 11 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 43
+
+
+
+ Score = 59.7 bits (143), Expect = 1e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 69  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 101
+
+
+>gi|1480567 
+          Length = 472
+
+ Score = 59.3 bits (142), Expect = 1e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 216 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 248
+
+
+
+ Score = 58.9 bits (141), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 158 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 190
+
+
+
+ Score = 57.4 bits (137), Expect = 5e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 100 FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 132
+
+
+
+ Score = 48.9 bits (115), Expect = 2e-04,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 40 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 71
+
+
+>gi|38049155 
+          Length = 200
+
+ Score = 59.3 bits (142), Expect = 1e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 6  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 38
+
+
+
+ Score = 59.3 bits (142), Expect = 1e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 66 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 98
+
+
+>gi|334272847 
+          Length = 267
+
+ Score = 59.3 bits (142), Expect = 1e-07,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 45 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 77
+
+
+
+ Score = 58.1 bits (139), Expect = 3e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 103 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 135
+
+
+
+ Score = 36.2 bits (82), Expect = 1.1,   Method: Composition-based stats.
+ Identities = 13/19 (68%), Positives = 16/19 (84%)
+
+Query: 15 DPNLNEEQRNAKIKSIRDD 33
+           PNLNEEQRN  I+S++DD
+Sbjct: 1  MPNLNEEQRNGFIQSLKDD 19
+
+
+>gi|258424225 
+          Length = 520
+
+ Score = 58.9 bits (141), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 236 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 268
+
+
+
+ Score = 58.1 bits (139), Expect = 3e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 294 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 326
+
+
+
+ Score = 57.0 bits (136), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 178 FNKDQQNAFYEILNMPNLNEEQRNGFIQSLKDD 210
+
+
+
+ Score = 54.3 bits (129), Expect = 4e-06,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 120 FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 152
+
+
+
+ Score = 47.7 bits (112), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 60 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 91
+
+
+>gi|323443158 
+          Length = 464
+
+ Score = 58.9 bits (141), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 228 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 260
+
+
+
+ Score = 58.1 bits (139), Expect = 3e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 286 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 318
+
+
+
+ Score = 57.7 bits (138), Expect = 4e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 170 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 202
+
+
+
+ Score = 56.2 bits (134), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 112 FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 144
+
+
+
+ Score = 47.7 bits (112), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 52 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 83
+
+
+>gi|38049157 
+          Length = 201
+
+ Score = 58.9 bits (141), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 88  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 120
+
+
+
+ Score = 58.9 bits (141), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 148 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 180
+
+
+>gi|154736702 
+          Length = 439
+
+ Score = 58.9 bits (141), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 132 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 164
+
+
+
+ Score = 58.1 bits (139), Expect = 3e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 190 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 222
+
+
+
+ Score = 55.8 bits (133), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 74  FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 106
+
+
+
+ Score = 47.7 bits (112), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 14 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 45
+
+
+>gi|253733788 
+          Length = 488
+
+ Score = 58.5 bits (140), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 228 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 260
+
+
+
+ Score = 57.7 bits (138), Expect = 4e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 286 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 318
+
+
+
+ Score = 57.4 bits (137), Expect = 5e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 170 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 202
+
+
+
+ Score = 53.1 bits (126), Expect = 8e-06,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 112 FNKDQQSAFYEILNMPNLNEVQRNGFIQSLKDD 144
+
+
+
+ Score = 47.3 bits (111), Expect = 5e-04,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 52 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 83
+
+
+>gi|282902702 
+          Length = 534
+
+ Score = 58.5 bits (140), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 227 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 259
+
+
+
+ Score = 57.7 bits (138), Expect = 4e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 285 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 317
+
+
+
+ Score = 57.4 bits (137), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 169 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 201
+
+
+
+ Score = 55.8 bits (133), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 111 FNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDD 143
+
+
+
+ Score = 47.3 bits (111), Expect = 5e-04,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 51 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 82
+
+
+>gi|323463238 
+          Length = 347
+
+ Score = 57.7 bits (138), Expect = 4e-07,   Method: Composition-based stats.
+ Identities = 18/32 (56%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          N   Q  FYE LH PNL EEQ+N  I+S++DD
+Sbjct: 42 NDAQQNAFYEILHLPNLTEEQQNGFIQSLKDD 73
+
+
+
+ Score = 54.3 bits (129), Expect = 4e-06,   Method: Composition-based stats.
+ Identities = 16/33 (48%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           ++   Q  FYE LH  NL EEQ+N  I+S++DD
+Sbjct: 96  YSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDD 128
+
+
+
+ Score = 54.3 bits (129), Expect = 4e-06,   Method: Composition-based stats.
+ Identities = 16/33 (48%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           ++   Q  FYE LH  NL EEQ+N  I+S++DD
+Sbjct: 151 YSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDD 183
+
+
+>gi|302202596 
+          Length = 418
+
+ Score = 57.4 bits (137), Expect = 5e-07,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 22/33 (66%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE LH P L EEQRN  I+S++DD
+Sbjct: 215 FNEAQQNAFYEILHLPYLTEEQRNGFIQSLKDD 247
+
+
+
+ Score = 53.1 bits (126), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 17/33 (51%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           F+   Q  FYE L+ P L+EEQRN  I+S++DD
+Sbjct: 157 FDAAQQNAFYEILNLPYLSEEQRNGFIQSLKDD 189
+
+
+
+ Score = 52.3 bits (124), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 16/33 (48%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           F+   Q  FYE ++ PNL +EQRN  I+S++DD
+Sbjct: 98  FDAAQQNAFYEIVNLPNLTDEQRNGYIQSLKDD 130
+
+
+
+ Score = 51.2 bits (121), Expect = 4e-05,   Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 21/31 (67%)
+
+Query: 3  MQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+             Q  FYE ++ PNL +EQRN  I+S++DD
+Sbjct: 41 DAQQNAFYEIVNLPNLTDEQRNGYIQSLKDD 71
+
+
+>gi|1321813 
+          Length = 318
+
+ Score = 57.4 bits (137), Expect = 5e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 90  FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 122
+
+
+
+ Score = 57.4 bits (137), Expect = 5e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 162 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 194
+
+
+
+ Score = 57.4 bits (137), Expect = 5e-07,   Method: Composition-based stats.
+ Identities = 22/33 (66%), Positives = 26/33 (78%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRNA I+S++DD
+Sbjct: 220 FNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDD 252
+
+
+
+ Score = 56.2 bits (134), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 26/33 (78%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + Q  FYE LH PNLNEEQ+NA I+S++DD
+Sbjct: 32 FNKEQQNAFYEILHLPNLNEEQQNAFIQSLKDD 64
+
+
+>gi|83682327 
+          Length = 507
+
+ Score = 57.0 bits (136), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 21/33 (63%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNLNEEQRN  I+S++DD
+Sbjct: 189 FNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDD 221
+
+
+
+ Score = 56.2 bits (134), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 247 FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDD 279
+
+
+
+ Score = 54.7 bits (130), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 131 FNKKQQNAFYEILNMPNLNEEQRNGFIQSLKDD 163
+
+
+
+ Score = 52.7 bits (125), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 73  FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 105
+
+
+
+ Score = 46.2 bits (108), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 13 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 44
+
+
+>gi|219943172 
+          Length = 310
+
+ Score = 57.0 bits (136), Expect = 7e-07,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 100 FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 132
+
+
+
+ Score = 50.0 bits (118), Expect = 8e-05,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 40 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 71
+
+
+>gi|197253294 
+          Length = 462
+
+ Score = 56.2 bits (134), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 18/33 (54%), Positives = 24/33 (72%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           ++ + Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 98  YSDEQQNAFYEILHLPNLTEEQRNGYIQSLKDD 130
+
+
+
+ Score = 55.8 bits (133), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 18/33 (54%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           ++   Q  FYE LH PNL EEQRN  I+S++DD
+Sbjct: 212 YSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDD 244
+
+
+
+ Score = 54.3 bits (129), Expect = 4e-06,   Method: Composition-based stats.
+ Identities = 17/33 (51%), Positives = 23/33 (69%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           F+   Q  FYE ++ PNL EEQRN  I+S++DD
+Sbjct: 157 FDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDD 189
+
+
+
+ Score = 47.3 bits (111), Expect = 5e-04,   Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 20/31 (64%)
+
+Query: 3  MQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+             Q  F E +  PNL+EEQRN  I+S++DD
+Sbjct: 41 EAQQNAFSEVVKLPNLSEEQRNGFIQSLKDD 71
+
+
+>gi|194580267 
+          Length = 183
+
+ Score = 55.0 bits (131), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 1   FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+           FN + Q  FYE L+ PNLNEEQRN  I+S++DD
+Sbjct: 122 FNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDD 154
+
+
+
+ Score = 52.0 bits (123), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 19/33 (57%), Positives = 23/33 (69%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN   Q  FYE L+ PNLNE QRN  I+S++DD
+Sbjct: 64 FNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDD 96
+
+
+>gi|219943178 
+          Length = 321
+
+ Score = 52.0 bits (123), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 15/32 (46%), Positives = 22/32 (68%)
+
+Query: 2  NMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +   Q  FY+ L+ PNLN +QRN  I+S++DD
+Sbjct: 40 DEAQQNAFYQVLNMPNLNADQRNGFIQSLKDD 71
+
+
+>gi|83753867 
+          Length = 59
+
+ Score = 46.6 bits (109), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 18/30 (60%), Positives = 24/30 (80%)
+
+Query: 4  QCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          + Q  FYE L+ PNLNE+QRNA I+S++DD
+Sbjct: 8  KQQNAFYEVLNMPNLNEDQRNAFIQSLKDD 37
+
+
+>gi|157834385 
+          Length = 38
+
+ Score = 44.6 bits (104), Expect = 0.004,   Method: Composition-based stats.
+ Identities = 32/33 (96%), Positives = 32/33 (96%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FNMQ QRRFYEALHDPNLNEEQRNAKIKSIRDD
+Sbjct: 6  FNMQQQRRFYEALHDPNLNEEQRNAKIKSIRDD 38
+
+
+>gi|302148593 
+          Length = 70
+
+ Score = 43.5 bits (101), Expect = 0.008,   Method: Composition-based stats.
+ Identities = 13/33 (39%), Positives = 21/33 (63%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + +  ++E    PNLN +Q+ A I+S+ DD
+Sbjct: 17 FNKEMRNAYWEIALLPNLNNQQKRAFIRSLYDD 49
+
+
+>gi|322812254 
+          Length = 365
+
+ Score = 43.1 bits (100), Expect = 0.010,   Method: Composition-based stats.
+ Identities = 18/33 (54%), Positives = 22/33 (66%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN + +R   E  H PNLN EQR A I+S+RDD
+Sbjct: 15 FNKERRRARREIRHLPNLNREQRRAFIRSLRDD 47
+
+
+>gi|167744864 
+          Length = 71
+
+ Score = 38.1 bits (87), Expect = 0.30,   Method: Composition-based stats.
+ Identities = 13/33 (39%), Positives = 18/33 (54%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN +      E ++ PNLN +Q  A I S+ DD
+Sbjct: 16 FNKEMASAGGEIVYLPNLNPDQLCAFIHSLHDD 48
+
+
+>gi|285818079 
+          Length = 451
+
+ Score = 37.7 bits (86), Expect = 0.38,   Method: Composition-based stats.
+ Identities = 13/32 (40%), Positives = 20/32 (62%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRD 32
+          +    Q+ FY+ LH   + EEQRN  IK++R+
+Sbjct: 47 YVTDQQKAFYQVLHLKGITEEQRNQYIKTLRE 78
+
+
+>gi|109157194 
+          Length = 58
+
+ Score = 37.7 bits (86), Expect = 0.43,   Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 18/33 (54%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN +     +E  + PNLN  Q  A I S+RDD
+Sbjct: 5  FNKELGWATWEIFNLPNLNGVQVKAFIDSLRDD 37
+
+
+>gi|282917767 
+          Length = 457
+
+ Score = 37.7 bits (86), Expect = 0.44,   Method: Composition-based stats.
+ Identities = 13/32 (40%), Positives = 20/32 (62%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRD 32
+          +    Q+ FY+ LH   + EEQRN  IK++R+
+Sbjct: 47 YVTDQQKAFYQVLHLKGITEEQRNQYIKTLRE 78
+
+
+>gi|375020462 
+          Length = 139
+
+ Score = 37.3 bits (85), Expect = 0.57,   Method: Composition-based stats.
+ Identities = 13/32 (40%), Positives = 20/32 (62%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRD 32
+          +    Q+ FY+ LH   + EEQRN  IK++R+
+Sbjct: 47 YVTDQQKAFYQVLHLKGITEEQRNQYIKTLRE 78
+
+
+>gi|323465521 
+          Length = 496
+
+ Score = 36.9 bits (84), Expect = 0.66,   Method: Composition-based stats.
+ Identities = 14/30 (46%), Positives = 20/30 (66%)
+
+Query: 4   QCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+             Q  FY  LH+ +L+EEQR+A I  I++D
+Sbjct: 103 AQQNAFYSVLHNDDLSEEQRDAYIGRIKED 132
+
+
+>gi|319891322 
+          Length = 508
+
+ Score = 36.9 bits (84), Expect = 0.68,   Method: Composition-based stats.
+ Identities = 14/30 (46%), Positives = 20/30 (66%)
+
+Query: 4   QCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+             Q  FY  LH+ +L+EEQR+A I  I++D
+Sbjct: 103 AQQNAFYSVLHNDDLSEEQRDAYIGRIKED 132
+
+
+>gi|371974086 
+          Length = 406
+
+ Score = 36.9 bits (84), Expect = 0.74,   Method: Composition-based stats.
+ Identities = 13/32 (40%), Positives = 20/32 (62%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRD 32
+          +    Q+ FY+ LH   + EEQRN  IK++R+
+Sbjct: 47 YVTDQQKAFYQVLHLKGITEEQRNQYIKTLRE 78
+
+
+>gi|83753868 
+          Length = 56
+
+ Score = 36.2 bits (82), Expect = 1.1,   Method: Composition-based stats.
+ Identities = 13/28 (46%), Positives = 16/28 (57%)
+
+Query: 6  QRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          Q  FYE L      E  RNA I+S++DD
+Sbjct: 10 QNAFYETLTKAVDAETARNAFIQSLKDD 37
+
+
+>gi|375023523 
+          Length = 62
+
+ Score = 36.2 bits (82), Expect = 1.3,   Method: Composition-based stats.
+ Identities = 13/19 (68%), Positives = 16/19 (84%)
+
+Query: 15 DPNLNEEQRNAKIKSIRDD 33
+           PNLNEEQRN  I+S++DD
+Sbjct: 1  MPNLNEEQRNGFIQSLKDD 19
+
+
+>gi|332138260 
+          Length = 57
+
+ Score = 35.0 bits (79), Expect = 2.8,   Method: Composition-based stats.
+ Identities = 15/33 (45%), Positives = 21/33 (63%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          +N + +    E  + PNLNEEQR+A + SI DD
+Sbjct: 2  YNDEKKLASNEIANLPNLNEEQRSAFLSSINDD 34
+
+
+>gi|29726423 
+          Length = 58
+
+ Score = 34.6 bits (78), Expect = 3.2,   Method: Composition-based stats.
+ Identities = 13/33 (39%), Positives = 18/33 (54%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN +      E +  PNLN+ Q+ A I S+ DD
+Sbjct: 5  FNKELSVAGREIVTLPNLNDPQKKAFIFSLWDD 37
+
+
+>gi|109157195 
+          Length = 58
+
+ Score = 34.6 bits (78), Expect = 3.3,   Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 17/33 (51%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDD 33
+          FN +      E +  PNLN  Q  A I S+RDD
+Sbjct: 5  FNKERVIAIGEIMRLPNLNSLQVVAFINSLRDD 37
+
+
+>gi|343781192 
+          Length = 34
+
+ Score = 33.9 bits (76), Expect = 5.3,   Method: Composition-based stats.
+ Identities = 21/34 (61%), Positives = 23/34 (67%)
+
+Query: 1  FNMQCQRRFYEALHDPNLNEEQRNAKIKSIRDDC 34
+          FN +C  R+ EA  DPNLN  QR AKI SI DDC
+Sbjct: 1  FNKECLLRYKEAALDPNLNLYQRIAKIVSIDDDC 34
+
+
+  Database: nr
+    Posted date:  Feb 28, 2013  3:13 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,918,502
+  
+  Database: /home/choviski/TCC/nr/nr.01
+    Posted date:  Feb 28, 2013  3:15 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  2,940,858
+  
+  Database: /home/choviski/TCC/nr/nr.02
+    Posted date:  Feb 28, 2013  3:18 PM
+  Number of letters in database: 999,999,812
+  Number of sequences in database:  2,796,349
+  
+  Database: /home/choviski/TCC/nr/nr.03
+    Posted date:  Feb 28, 2013  3:19 PM
+  Number of letters in database: 539,507,503
+  Number of sequences in database:  1,564,035
+  
+Lambda     K      H
+   0.306    0.137    0.381 
+
+Lambda     K      H
+   0.267   0.0409    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 642,057,849
+Number of Sequences: 10219744
+Number of extensions: 10938670
+Number of successful extensions: 35466
+Number of sequences better than 10.0: 53
+Number of HSP's better than 10.0 without gapping: 140
+Number of HSP's successfully gapped in prelim test: 1
+Number of HSP's that attempted gapping in prelim test: 35154
+Number of HSP's gapped (non-prelim): 312
+length of query: 34
+length of database: 3,539,507,111
+effective HSP length: 8
+effective length of query: 26
+effective length of database: 3,457,749,159
+effective search space: 89901478134
+effective search space used: 89901478134
+T: 11
+A: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.0 bits)
+S2: 74 (33.1 bits)
